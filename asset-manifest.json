@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5b142601.chunk.css",
+    "main.js": "/portfolio/static/js/main.31eef568.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.31eef568.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0f8021a0.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0f8021a0.js.map",
+    "static/js/2.ca85b87d.chunk.js": "/portfolio/static/js/2.ca85b87d.chunk.js",
+    "static/js/2.ca85b87d.chunk.js.map": "/portfolio/static/js/2.ca85b87d.chunk.js.map",
+    "static/js/3.8a99d8d7.chunk.js": "/portfolio/static/js/3.8a99d8d7.chunk.js",
+    "static/js/3.8a99d8d7.chunk.js.map": "/portfolio/static/js/3.8a99d8d7.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.5b142601.chunk.css.map": "/portfolio/static/css/main.5b142601.chunk.css.map",
+    "static/js/2.ca85b87d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ca85b87d.chunk.js.LICENSE.txt",
+    "static/media/feature.04bcc261.JPG": "/portfolio/static/media/feature.04bcc261.JPG",
+    "static/media/pyaccesswebdata.1a3d5466.pdf": "/portfolio/static/media/pyaccesswebdata.1a3d5466.pdf",
+    "static/media/pybasic.c16008bb.pdf": "/portfolio/static/media/pybasic.c16008bb.pdf",
+    "static/media/pycapstone.b73f3690.pdf": "/portfolio/static/media/pycapstone.b73f3690.pdf",
+    "static/media/pydatastructure.88dd1067.pdf": "/portfolio/static/media/pydatastructure.88dd1067.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f8021a0.js",
+    "static/js/2.ca85b87d.chunk.js",
+    "static/css/main.5b142601.chunk.css",
+    "static/js/main.31eef568.chunk.js"
+  ]
+}
