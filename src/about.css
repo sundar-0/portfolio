@@ -1,0 +1,12 @@
+.description{
+    background-image: url("https://i.gifer.com/6pp1.gif"); /* The image used */
+    height: 420px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 1;
+    text-transform:uppercase;
+    text-align: center;
+    padding-top: 320px;
+  
+  }

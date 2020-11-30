@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MainSkeleton from './App'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <React.Fragment>
+    <MainSkeleton/>
+  </React.Fragment>,
   document.getElementById('root')
 );
 
