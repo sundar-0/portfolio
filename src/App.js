@@ -205,9 +205,6 @@ function MainSkeleton(props) {
         <Route exact path="/">
             <About/>
           </Route>
-          <Route path="/aboutme">
-            <About/>
-          </Route>
           <Route path="/myskill">
             <Skill />
           </Route>
@@ -217,6 +214,7 @@ function MainSkeleton(props) {
           <Route path="/contactme">
           <Contact/>
           </Route>
+          <About/>
         </Switch>
       </main>
     </div>

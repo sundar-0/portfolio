@@ -9,11 +9,14 @@ import PeopleIcon from '@material-ui/icons/People';
 import WorkIcon from '@material-ui/icons/Work';
 import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import GetAppIcon from '@material-ui/icons/GetApp';
 import './about.css'
 import pyBasic from './MyAcheivment/pybasic.pdf'
 import webData from './MyAcheivment/pyaccesswebdata.pdf'
 import dataStr from './MyAcheivment/pydatastructure.pdf'
 import pyCapstone from './MyAcheivment/pycapstone.pdf'
+import myCv from './Cv/mycv.pdf'
+
 const openFile=(text)=>{
 console.log(text)
  text==='Python Basic'
@@ -37,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     fontFamily:'sans-serif',
-    marginTop:20,
+    marginTop:25,
     marginBottom:4,
     marginRight:6,
     "&:hover": {
@@ -105,7 +108,7 @@ export default function About() {
       <Grid container spacing={0}>
         <Grid item xs={12}>
           <Paper className="description">
-          <Typography variant="body1" component="h5" style={{color:'yellow',fontWeight:'bold',fontSize:'20px'}}>
+          <Typography variant="body1" component="h5" style={{color:'skyblue',fontWeight:'bold',fontSize:'20px'}}>
               Me a:
               <Typewriter 
                   options={{
@@ -175,6 +178,13 @@ export default function About() {
           </Paper>
           </Grid>
           )}
+          <Grid item xs={12} sm={4} md={4} lg={4}>
+          <Paper className={classes.paper} style={{backgroundColor:'#f1f1f1'}} onClick={()=>window.open(myCv)}>
+          <GetAppIcon/>
+          Download CV
+          </Paper>
+          </Grid>
+
       </Grid>
     </div>  
   
@@ -182,11 +192,11 @@ export default function About() {
 }
 const Description=(
 <>
-    <Typography variant="body1" component="p" style={{ background: "-webkit-linear-gradient(left, #3931af, #00c6ff)",fontFamily:'sans-serif',fontSize:'18px',padding:"10px",color:'white',marginTop:'10px',lineHeight:'40px'}}>
+    <Typography variant="body1" component="p" style={{backgroundColor:'#f1f1f1',fontFamily:'sans-serif',fontSize:'18px',padding:"10px",marginTop:'10px',lineHeight:'40px'}}>
     Who Am I?
     <br/>
       I am Sundar Dumre currently studying B.E Computer in Nepal Engineering College.
-      I am a full stack developer..I can make you a website for your company.You can hire me for this
+      I am a full stack developer..I can make a website for your company.You can hire me for this
     <br/>
       <Button size="large" color="secondary">
           Hire Me
